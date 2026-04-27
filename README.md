@@ -2,6 +2,25 @@
 
 **YFS Developer guide for API integration**
 
+## Table of Contents
+
+- [Base URL](#base-url)
+- [Service Types](#service-types)
+- [Grocery Order Statuses](#grocery-order-statuses)
+- [E-Commerce Order Statuses](#e-commerce-order-statuses)
+- [Cancel Reasons](#cancel-reasons)
+- [Add New Order — /orders/addorder](#add-new-order-ordersaddorder)
+- [Add Multiple Orders — /orders/addmultipleorders](#add-multiple-orders-ordersaddmultipleorders)
+- [V2-Add Multiple Orders — /orders/v2/addmultipleorders](#v2-add-multiple-orders-ordersv2addmultipleorders)
+- [Update Order — /orders/updateorder](#update-order-ordersupdateorder)
+- [Cancel Order — /orders/cancelorder](#cancel-order-orderscancelorder)
+- [Get Order Details — /orders/orderdetails](#get-order-details-ordersorderdetails)
+- [Get Order Details By ID's — /orders/orderdetails\_by\_ids](#get-order-details-by-ids-ordersorderdetails_by_ids)
+- [Get Orders History — /orders/orders\_history\_by\_ids](#get-orders-history-ordersorders_history_by_ids)
+- [List All Orders — /orders/list](#list-all-orders-orderslist)
+
+---
+
 ## Base URL
 
 All URLs referenced in the documentation have the following base:
