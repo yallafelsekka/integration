@@ -50,7 +50,7 @@ For `Exchange`, the client must create a delivery order using using `/addorder` 
 For `CRP`, the client must create a pickup and delivery order using using `addmultipleorders` API.
 
 #### CRP Example
-```json
+```js
 {
   "api_token": "256b83476ba7aa2ca0665015abc6bac286a4944d93b04c4f",
   "data": [
@@ -235,7 +235,7 @@ For `CRP`, the client must create a pickup and delivery order using using `addmu
 
 **Request (application/json)**
 
-```json
+```js
 {
     "api_token": "256b83476ba7aa2ca0665015abc6bac286a4944d93b04c4f7967d91c953560a6",
     "service_type": 1,
@@ -269,7 +269,7 @@ For `CRP`, the client must create a pickup and delivery order using using `addmu
 
 **Response 200 (application/json)**
 
-```json
+```js
 {
     "status": "success",
     "msg": "Order Created successfully",
@@ -319,7 +319,7 @@ This API is used to create multiple pickup and delivery tasks at once.
 
 **Request (application/json)**
 
-```json
+```js
 {
     "api_token": "256b83476ba7aa2ca0665015abc6bac286a4944d93b04c4f7967d91c953560a6",
     "data": [
@@ -385,7 +385,7 @@ This API is used to create multiple pickup and delivery tasks at once.
 
 **Response 200 (application/json)**
 
-```json
+```js
 {
     "status": "success",
     "msg": "Order Created successfully.",
@@ -448,7 +448,7 @@ This API is used to create multiple service_type orders at once.
 
 **Request (application/json)**
 
-```json
+```js
 {
   "api_token": "256b83476ba7aa2ca0665015abc6bac286a4944d93b04c4f7967d91c953560a6",
   "orders": [
@@ -577,7 +577,7 @@ This API is used to create multiple service_type orders at once.
 
 **Response 200 (application/json)**
 
-```json
+```js
 {
     "status": "success",
     "msg": "Order Created successfully.",
@@ -652,7 +652,7 @@ Update order details.<br/>
 
 **Request (application/json)**
 
-```json
+```js
 {
     "api_token":"fe7dce957a527e9c7b91f00bd697fade91a02bf0389544568b27950240478404",
     "id":125407739,
@@ -687,7 +687,7 @@ Update order details.<br/>
 
 **Response 201 (application/json)**
 
-```json
+```js
 {
     "status": "success",
     "msg": "Order Updated successfully.",
@@ -735,7 +735,7 @@ Cancel an order using its job_id.
 
 **Request (application/json)**
 
-```json
+```js
 {
     "api_token":"fe7dce957a527e9c7b91f00bd697fade91a02bf0389544568b27950240478404",
     "id":125407739
@@ -744,7 +744,7 @@ Cancel an order using its job_id.
 
 **Response 201 (application/json)**
 
-```json
+```js
 {
     "status": "success",
     "msg": "Order successfully cancelled"
@@ -761,7 +761,7 @@ Retrive the order details using the Order ID.
 
 **Request (application/json)**
 
-```json
+```js
 {
     "api_token":"fe7dce957a527e9c7b91f00bd697fade91a02bf0389544568b27950240478404",
     "id":125407739
@@ -770,7 +770,7 @@ Retrive the order details using the Order ID.
 
 **Response 201 (application/json)**
 
-```json
+```js
 {
     "status": "success",
     "data": [
@@ -818,7 +818,7 @@ Retrive the orders details using the Order ID List.
 
 **Request (application/json)**
 
-```json
+```js
 {
     "api_token":"fe7dce957a527e9c7b91f00bd697fade91a02bf0389544568b27950240478404",
     "ids": [23454, 23455, 23456]
@@ -827,7 +827,7 @@ Retrive the orders details using the Order ID List.
 
 **Response 201 (application/json)**
 
-```json
+```js
 {
     "status": "success",
     "data": {<Array of order details>}
@@ -844,7 +844,7 @@ Retrive the orders history using the a list of Order ID's.
 
 **Request (application/json)**
 
-```json
+```js
 {
     "api_token":"fe7dce957a527e9c7b91f00bd697fade91a02bf0389544568b27950240478404",
     "ids": [30667, 26544]
@@ -853,7 +853,7 @@ Retrive the orders history using the a list of Order ID's.
 
 **Response 201 (application/json)**
 
-```json
+```js
 {
     "status": "success",
     "data": [
@@ -949,7 +949,7 @@ Retrive a list of all orders for a specified company using the authentication ke
 
 **Request (application/json)**
 
-```json
+```js
 {
     "api_token":"fe7dce957a527e9c7b91f00bd697fade91a02bf0389544568b27950240478404"
 }
@@ -957,7 +957,7 @@ Retrive a list of all orders for a specified company using the authentication ke
 
 **Response 201 (application/json)**
 
-```json
+```js
 {
     "status": "success",
     "data": {<Array of order details>}
