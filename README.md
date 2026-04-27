@@ -27,8 +27,6 @@ All URLs referenced in the documentation have the following base:
 
 ### https://app.yfsdelivery.com/api/
 
-Note: You need to change `Mock Server` to `Production` if you want to run it inside the documentation.
-
 ## Service Types
 
 | Type | Value | Description |
