@@ -1,6 +1,3 @@
-FORMAT: 1A
-HOST: https://app.yfsdelivery.com/api/
-
 # YallaFelSekka
 
 <strong>YFS Developer guide for API integration</strong>
