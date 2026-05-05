@@ -226,6 +226,7 @@ For `CRP`, the client must create a pickup and delivery order using using `addmu
 | landmark | `Text` | Optional | Any landmark near the customer address to help the agent reach the address easily. |
 | area | `Text` | Optional | Area of the customer address |
 | notes | `Text` | Optional | Special notes and remarks for the order |
+| description | `Text` | Optional | Detailed description of the order |
 | agent_id | `Integer` | Optional | Agent (Captain) ID to assign the task to directly |
 | agent_mobile | `Text` | Optional | Agent (Captain) Mobile Number, If no Agent Id sent then will use the phone number to search for the agent and assign the task to them |
 | shop_key | `Text` | Optional | Unique Shop Identifier from the customer side. If an account has more than one shop sending orders, then this key will be used to identify which shop created that order |
@@ -310,6 +311,7 @@ This API is used to create multiple pickup and delivery tasks at once.
 | landmark | `Text` | Optional | Any landmark near the customer address to help the agent reach the address easily. |
 | area | `Text` | Optional | Area of the customer address |
 | notes | `Text` | Optional | Special notes and remarks for the order |
+| description | `Text` | Optional | Detailed description of the order |
 | agent_id | `Integer` | Optional | Agent (Captain) ID to assign the task to directly |
 | agent_mobile | `Text` | Optional | Agent (Captain) Mobile Number, If no Agent Id sent then will use the phone number to search for the agent and assign the task to them |
 | shop_key | `Text` | Optional | Unique Shop Identifier from the customer side. If an account has more than one shop sending orders, then this key will be used to identify which shop created that order |
@@ -439,6 +441,7 @@ This API is used to create multiple service_type orders at once.
 | landmark | `Text` | Optional | Any landmark near the customer address to help the agent reach the address easily. |
 | area | `Text` | Optional | Area of the customer address |
 | notes | `Text` | Optional | Special notes and remarks for the order |
+| description | `Text` | Optional | Detailed description of the order |
 | agent_id | `Integer` | Optional | Agent (Captain) ID to assign the task to directly |
 | agent_mobile | `Text` | Optional | Agent (Captain) Mobile Number, If no Agent Id sent then will use the phone number to search for the agent and assign the task to them |
 | shop_key | `Text` | Optional | Unique Shop Identifier from the customer side. If an account has more than one shop sending orders, then this key will be used to identify which shop created that order |
@@ -643,6 +646,7 @@ Update order details.<br/>
 | landmark | `Text` | Optional | Any landmark near the customer address to help the agent reach the address easily. |
 | area | `Text` | Optional | Area of the customer address |
 | notes | `Text` | Optional | Special notes and remarks for the order |
+| description | `Text` | Optional | Detailed description of the order |
 | agent_id | `Integer` | Optional | Agent (Captain) ID to assign the task to directly |
 | agent_mobile | `Text` | Optional | Agent (Captain) Mobile Number, If no Agent Id sent then will use the phone number to search for the agent and assign the task to them |
 | shop_key | `Text` | Optional | Unique Shop Identifier from the customer side. If an account has more than one shop sending orders, then this key will be used to identify which shop created that order |
