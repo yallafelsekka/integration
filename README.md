@@ -21,11 +21,20 @@
 
 ---
 
-## Base URL
+## Base URLs
 
-All URLs referenced in the documentation have the following base:
+All API endpoints referenced in this documentation use one of the following base URLs depending on the environment:
 
-### https://app.yfsdelivery.com/api/
+### Production
+
+`https://app.yfsdelivery.com/api/`
+
+### Staging
+
+`https://stg.be.platform.yfsdelivery.com/integration-service/api/`
+
+> **Note:** Use the **Staging** URL for development, integration testing, and UAT. Use the **Production** URL only for live production transactions.
+
 
 ## Service Types
 
